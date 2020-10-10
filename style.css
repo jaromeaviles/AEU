@@ -1,0 +1,403 @@
+/* CSS Reset */
+
+@font-face {
+	font-family: "FuturaNew";
+	src: ("assets/font/Futura New/FuturaNewLight.otf");
+	src: ("assets/font/Futura New/FuturaNewBold.otf");
+	
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+body {
+	line-height:1;
+	font-family: FuturaNew;
+}
+
+p {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+a {
+	line-height: 20px;
+}
+
+h3 {
+	color: #0fcc5b;
+	font-size: 20px;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display:block;
+}
+nav ul {
+	list-style:none;
+}
+blockquote, q {
+	quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:'';
+	content:none;
+}
+a {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+	background-color:#ff9;
+	color:#000;
+	text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+	background-color:#ff9;
+	color:#000; 
+	font-style:italic;
+	font-weight:bold;
+}
+del {
+	text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+	display:block;
+	height:1px;
+	border:0; 
+	border-top:1px solid #cccccc;
+	margin:1em 0;
+	padding:0;
+}
+input, select {
+	vertical-align:middle;
+}
+
+.btn {
+	border-radius: 20px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border: 0;
+	font-size: 16px;
+}
+
+/* Navbar */
+
+.navbar-light {
+	background-color: transparent !important;
+}
+
+.navbar-brand img {
+	object-fit: cover;
+}
+
+#hero-image {
+	background-image: url("assets/img/Main Banner Hotwater.png");
+	background-position: center -170px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #333333;
+	text-transform: uppercase;
+	padding: 0 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 0 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #0fcc5b;
+}
+
+#nav-search {
+	color: #0fcc5b !important;
+}
+
+/* Hero Section */
+
+#heading-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+
+#heading-wrapper h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+span#heading-below {
+	font-size: 50px;
+	color:  #0fcc5b;
+}
+
+#hero-button {
+	margin-top: 30px;
+	text-transform: uppercase;
+	background-color: #0fcc5b;
+	border: 0;
+}
+
+/* Overview */
+
+#overview-wrapper h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#overview-wrapper {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 60vh;
+}
+
+#yt-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* About */
+
+#about-section {
+	background-image: url("assets/img/Rebate BG.png");
+	background-position: -110px -10px;
+	/*margin-bottom: -90px;
+	z-index: 5;*/
+}
+
+#about {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 65vh;
+	padding: 40px;
+}
+
+#about-section h2 {
+	font-size: 40px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+#about-button {
+	margin-top: 30px;
+	text-transform: uppercase;
+	background-color: #1a2741;
+	border: 0;
+	width: 40%;
+}
+
+/* Footer */
+
+#ft-bg {
+	background-color: #1a2741;
+	padding: 60px 0;
+}
+
+#footer-wrapper {
+	
+	height: 40vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#footer-wrapper p {
+	
+	color: #ffffff;
+}
+
+#rebate-wrapper img {
+	display: block;
+	margin: 0 auto;
+}
+
+#pages {
+	padding: 0 60px;
+}
+
+#pages h3, #contact h3, #download h3 {
+	margin-top: 35px;
+}
+
+#footer-form {
+	margin-top: 25px;	
+}
+
+#pages ul, #contact ul {
+	list-style-type: none;
+	color: #ffffff;
+	margin-top: 45px;
+	line-height: 25px;
+}
+
+#contact a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#contact a:hover {
+	color: #ffffff;
+}
+
+
+.footer-content ul {
+	list-style-type: none;
+	color: #ffffff;
+}
+
+#footer-logo {
+	height: 100px;
+	width: 200px;
+	object-fit: cover;
+}
+
+.fab {
+	color: #ffffff;
+}
+
+.download {
+	background-color: #0fcc5b;
+}
+
+.download:hover {
+	background-color: #0fcc5b;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+	/* Hero Section */
+
+	.navbar-nav {
+		background-color: #343a40;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		color: #ffffff;
+	}
+
+	.navbar-nav li {
+		padding: 5px 0;
+	}
+
+	.navbar-nav li a:focus {
+		color: #ffffff !important;
+	}
+
+
+	#heading-wrapper {
+		height: 100vh;
+	}
+
+	#heading-wrapper h1 {
+		text-align: center;
+	}
+
+	#heading-wrapper p {
+		text-align: center;
+	}
+
+	#hero-button {
+		display: block;
+		margin: 20px auto;
+	}
+
+	/* Overview */
+
+	#overview-wrapper {
+		height: 45vh;
+	}
+
+	#overview-wrapper h2 {
+		text-align: center;
+	}
+
+	#overview-wrapper p {
+		text-align: center;
+	}
+
+	#yt-wrapper {
+		margin-bottom: 40px;
+	}
+
+	/* About */
+
+	#about  {
+		height: 50vh;
+	}
+
+	#about-section h2, #about-section p {
+		text-align: center;
+	}
+
+	#about-button {
+		width: 100%;
+	}
+
+
+	/* Footer */
+
+	#rebate {
+		height: 50px;
+	}
+
+	#footer-wrapper {
+		height: 115vh;
+	}
+
+	#footer-logo {
+		display: block;
+		margin: 0 auto;
+	}
+
+	#footer-wrapper p {
+		text-align: center;
+	}
+
+	#pages {
+		padding: 20px;
+	}
+
+	
+}
+
